@@ -1,0 +1,45 @@
+body {
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+#Logo {
+    display: inline-block;
+}
+
+#Logo h1 {
+    font-family: Lexend;
+    transition: 0.5s;
+    font-size: 30px;
+    padding: 5px;
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+}
+
+#Logo span {
+    font-family: Lexend;
+    color: rgb(255, 145, 0);
+    transition: 1s;
+    /* transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68); */
+}
+
+#Logo h1:hover {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+#images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#images img {
+    width: 400px;
+    height: 700px;
+    margin : 20px;
+}
